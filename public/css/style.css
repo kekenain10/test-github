@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* suprime les margin et padding de base du navigateur pour ne pas les oublié par la suite */
+
+header {
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    top:0;
+    text-align: center;
+    color: aliceblue;
+
+    background-color: black;
+}
+
+/* centre le titre collant pour que le texte en dessous passe le titre garde sa taille a 100% le met au millieu et l'agnile au centre */
+
+/* .link_menu a{
+    color: rgb(0, 255, 64);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 1px rgb(255, 0, 0) solid;
+    border-radius: 10%;
+  
+    background-image: url("https://placehold.co/1200x1200");   
+} */
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+     
+
+}
+
+
+
+.list_link a {
+    background-image: url("https://placehold.co/1200x1200");
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10%;
+
+}
+
+/* choisis la hauteur et la largeur de la boitecentre le texte rajoute une image et choisi que l'image s'adapte a la boite ajout une bordure et des angle au coin de la bordure */
+
+.list_link, .link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin: 20px;
+}
+/* Permet de deplacer les div avec des mouvement libre avec un espace entre chaque boite en colone et un  equart de hauteur tout de meme*/
+
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+
+    background-color: black;
+   }
+   /* choisis de fixer la position tout en gardant la taille du footer met sa disposition a 50 px et aligne au milieu de la page change la coleur du texte */
